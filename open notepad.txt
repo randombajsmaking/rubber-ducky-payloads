@@ -1,0 +1,8 @@
+REM this will open notepad and type something LANGUAGE FOR THIS PAYLOAD IS (UNITED STATES)
+GUI r
+DELAY 1000
+STRING notepad.exe
+DELAY 10
+ENTER
+DELAY 1000
+STRING you been Hacked!
