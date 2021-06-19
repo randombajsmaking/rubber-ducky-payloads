@@ -1,0 +1,146 @@
+REM this will start a website
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
+GUI r
+DELAY 100
+STRING www.pornhub.com
+DELAY 100
+ENTER
